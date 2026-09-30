@@ -1,0 +1,127 @@
+{
+  "badge": {
+    "km": "គុណសម្បត្តិ & អត្ថប្រយោជន៍",
+    "en": "Key Benefits & Advantages"
+  },
+  "title": {
+    "km": "ហេតុអ្វីបានជាត្រូវជ្រើសរើស អ៊ីនហ្គូដ (Ingoude)?",
+    "en": "Why Choose Ingoude Food Service?"
+  },
+  "description": {
+    "km": "ការរួមបញ្ចូលគ្នារវាងការកុម្ម៉ង់អនឡាញ គ្រឿងផ្សំវាស់ស្រេច និងវីដេអូនាំផ្លូវចម្អិន ផ្តល់នូវដំណោះស្រាយពេញលេញសម្រាប់ជីវិតរស់នៅប្រចាំថ្ងៃ។",
+    "en": "By unifying online ordering, pre-portioned ingredients, and instructional video media, Ingoude transforms home cooking from a chore into a joy."
+  },
+  "benefits": [
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-recycle preview-icon\"><path d=\"M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5\"/><path d=\"M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12\"/><path d=\"m14 16-3 3 3 3\"/><path d=\"M8.293 13.596 7.196 9.5 3.1 10.598\"/><path d=\"m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843\"/><path d=\"m13.378 9.633 4.096 1.098 1.097-4.096\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9FurztDI9Rx4jrHGuqmKGnot8CqOQ8AUYlay-DToIn8BEN_lW3g36Ksw&s=10",
+      "titleKm": "កាត់បន្ថយការខ្ជះខ្ជាយ (Waste Reduction)",
+      "titleEn": "Zero Food Waste",
+      "descKm": "ផ្សារបង្ខំឱ្យទិញគ្រឿងច្រើនលើសតម្រូវការ ដែលធ្វើឱ្យសល់រលួយចោល។ កញ្ចប់ អ៊ីនហ្គូដ ផ្តល់នូវគ្រឿងផ្សំក្នុងបរិមាណត្រឹមត្រូវ (\"មានគ្រឿងទេសគ្រប់ចំនួន\") មិនខ្វះ មិនលើស គ្មានការខ្ជះខ្ជាយអាហារសូម្បីតែបន្តិច។",
+      "descEn": "Traditional grocery shopping forces you to buy in excess. Our pre-measured packages deliver the exact quantity required per recipe, eliminating leftover waste entirely.",
+      "checkKm": "គ្មានគ្រឿងសល់រលួយក្នុងទូទឹកកក",
+      "checkEn": "No spoiled food in the fridge"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M5 22h14\"/><path d=\"M5 2h14\"/><path d=\"M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22\"/><path d=\"M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_1920,q_auto/images/panoramic/getty_638223498_343169.jpg",
+      "titleKm": "សំចៃពេលវេលា (Time Savings)",
+      "titleEn": "Save Hours Every Week",
+      "descKm": "ចំណាយពេលកុម្ម៉ង់ត្រឹមតែ ២០ នាទី ប៉ុណ្ណោះ! អ្នកមិនបាច់ចំណាយពេលធ្វើដំណើរទៅផ្សារ វង្វេងរកគ្រឿងផ្សំ ឬអង្គុយហាន់លាងរាប់ម៉ោងឡើយ។ ដឹកជូនដល់ផ្ទះ បើកចម្អិនបានភ្លាម។",
+      "descEn": "Order your kit online in ~20 minutes. Skip crowded market commutes, parking, ingredient hunting, and laborious peeling/slicing prep time.",
+      "checkKm": "សំចៃពេល ១-២ ម៉ោងក្នុងមួយថ្ងៃ",
+      "checkEn": "Save 1–2 hours on every home meal"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M7 20h10\"/><path d=\"M10 20c5.5-2.5.8-6.4 3-10\"/><path d=\"M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z\"/><path d=\"M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://static-assets.getfarmish.com/assets/hero-image-1-bb20cd6c.jpg",
+      "titleKm": "ផលិតផលស្រស់ក្នុងស្រុក (Local Freshness)",
+      "titleEn": "Fresh Local Farm Produce",
+      "descKm": "ជ្រើសរើសដោយផ្ទាល់ពីកសិករ និងអ្នកផ្គត់ផ្គង់ក្នុងខេត្តបាត់ដំបង ធានាភាពស្រស់ អនាម័យ គ្មានសារធាតុគីមីគ្រោះថ្នាក់ និងជួយគាំទ្រដល់សេដ្ឋកិច្ចសហគមន៍មូលដ្ឋាន។",
+      "descEn": "We source natural, fresh vegetables, meats, and herbs directly from Battambang local farmers and trusted partners to guarantee hygiene and nutrition.",
+      "checkKm": "ស្រស់ថ្មីៗជារៀងរាល់ថ្ងៃ",
+      "checkEn": "Freshly harvested daily"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z\"/><path d=\"m6.2 5.3 3.1 3.9\"/><path d=\"m12.3 3.5 3 4\"/><path d=\"M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://cdn.vegkit.com/wp-content/uploads/sites/2/2021/11/18171034/3f8a4851b81d0a68b4add1a720194fc6.jpg",
+      "titleKm": "វីដេអូនាំផ្លូវ & Live Stream (Media Guides)",
+      "titleEn": "Video Guides & Live Streams",
+      "descKm": "អ្នកមិនធ្លាប់ចម្អិនម្ហូបពីមុនក៏អាចធ្វើបានឆ្ងាញ់! រាល់ឈុតមានភ្ជាប់មកជាមួយវីដេអូនាំផ្លូវច្បាស់ៗមួយជំហានម្តងៗ និងការ Live Stream បង្ហាញពីគន្លឹះចម្អិនយ៉ាងក្បោះក្បាយ។",
+      "descEn": "Even complete beginners can cook like seasoned pros! Enjoy bite-sized HD video instructions and interactive live streams detailing every single step.",
+      "checkKm": "ស្កេន QR មើលវីដេអូបានភ្លាមៗ",
+      "checkEn": "Instant QR code video access"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path d=\"M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://dam.oneadvanced.com/m/49db667485614ebf/original/what-is-budget-control-process-importance-benefits.jpg",
+      "titleKm": "គ្រប់គ្រងការចំណាយ (Budget Control)",
+      "titleEn": "Precise Budget Control",
+      "descKm": "ដឹងតម្លៃច្បាស់លាស់មុនពេលញ៉ាំ គ្មានការទិញលើស គ្មានការខ្ជះខ្ជាយលុយលើគ្រឿងទេសកំប៉ុងដែលប្រើតែម្តងហើយទុកចោល។ សន្សំសំចៃថវិកាគ្រួសារយ៉ាងពិតប្រាកដ។",
+      "descEn": "Fixed, transparent pricing per meal. You only pay for what you actually consume, eliminating costly full-sized condiment jars you only need a spoon of.",
+      "checkKm": "តម្លៃត្រឹម $3.25 ដល់ $6.00 ក្នុងមួយឈុត",
+      "checkEn": "Only $3.25 to $6.00 per full kit"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "color": "emerald",
+      "bgImage": "https://img.magnific.com/free-photo/assortment-vegetables-herbs-spices-background_123827-21588.jpg?semt=ais_hybrid&w=740&q=80",
+      "titleKm": "ជ្រើសរើសទំហំឈុតតាមតម្រូវការ",
+      "titleEn": "Flexible Portion Sizes",
+      "descKm": "មិនថារស់នៅម្នាក់ឯង ជាគូស្វាមីភរិយា ឬជាគ្រួសារធំឡើយ — Ingoude មានជម្រើសឈុត ២-៣ នាក់ និងឈុត ៤-៥ នាក់ ឆ្ងាញ់ល្មមសមស្របតាមចំនួនមនុស្ស។",
+      "descEn": "Whether you are a solo student, a young couple, or a full family, we offer perfectly portioned packages for 2-3 or 4-5 people.",
+      "checkKm": "ឈុត ២-៣ នាក់ & ៤-៥ នាក់",
+      "checkEn": "2-3 or 4-5 person packages"
+    }
+  ],
+  "comparison": {
+    "badgeKm": "ភាពលេចធ្លោ & គុណសម្បត្តិប្រកួតប្រជែង",
+    "badgeEn": "Our Competitive Edge",
+    "titleKm": "ប្រៀបធៀប Ingoude ជាមួយផ្សារប្រពៃណី",
+    "titleEn": "Ingoude vs Traditional Wet Markets",
+    "subKm": "សេវាកម្មតែមួយគត់ដែលរួមបញ្ចូលការកុម្ម៉ង់ ដឹកដល់ផ្ទះ គ្រឿងវាស់ស្រេច និងវីដេអូបង្រៀន",
+    "subEn": "A single integrated service combining ordering, delivery, pre-measured portions, and video tutorials.",
+    "rows": [
+      {
+        "featureKm": "ការកុម្ម៉ង់រហ័សតាមអនឡាញ",
+        "featureEn": "Online Fast Ordering",
+        "ingoude": "✓ ~20 នាទី / Mins",
+        "market": "✕ ត្រូវជិះម៉ូតូ/ឡានទៅផ្សារ",
+        "delivery": "✓ កុម្ម៉ង់លើ App"
+      },
+      {
+        "featureKm": "គ្រឿងផ្សំវាស់តាមរូបមន្ត (គ្មានខ្ជះខ្ជាយ)",
+        "featureEn": "Pre-Measured Portions (Zero Waste)",
+        "ingoude": "✓ គ្រឿងគ្រប់ចំនួន ១០០%",
+        "market": "✕ បង្ខំទិញច្រើន សល់រលួយចោល",
+        "delivery": "N/A (អាហារឆ្អិនស្រេច)"
+      },
+      {
+        "featureKm": "វីដេអូនាំផ្លូវចម្អិនមួយជំហានម្តងៗ & Live",
+        "featureEn": "Step-by-Step Video & Live Guides",
+        "ingoude": "✓ មានវីដេអូ & QR លើកញ្ចប់",
+        "market": "✕ គ្មានការណែនាំ",
+        "delivery": "N/A (មិនបានរៀនចម្អិន)"
+      },
+      {
+        "featureKm": "អាហារក្តៅៗ ស្រស់ និងមានអនាម័យ",
+        "featureEn": "Hot, Fresh & Hygienic Home Meal",
+        "ingoude": "✓ ចម្អិនភ្លាម ញ៉ាំក្តៅៗ",
+        "market": "✓ ធ្វើខ្លួនឯងតែហត់ខ្លាំង",
+        "delivery": "~ ត្រជាក់ពេលដឹកជញ្ជូនមកដល់"
+      },
+      {
+        "featureKm": "តម្លៃសមរម្យ & គ្រប់គ្រងថវិកាបាន",
+        "featureEn": "Cost-Effective & Budget Control",
+        "ingoude": "✓ ច្បាស់លាស់ គ្មានចំណាយកំប៉ិកកំប៉ុក",
+        "market": "✕ ថ្លៃលើសតម្រូវការ",
+        "delivery": "✕ ថ្លៃម្ហូប + ថ្លៃសេវាដឹកច្រើន"
+      }
+    ]
+  }
+}

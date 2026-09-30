@@ -1,0 +1,66 @@
+---
+import ctaData from '../../public/contents/CTASection.json';
+import company from '../../public/contents/Company.json';
+---
+
+<section class="py-20 md:py-24 bg-linear-to-tr from-emerald-900 via-emerald-800 to-teal-900 text-white relative overflow-hidden">
+  <!-- Background glow decorations -->
+  <div class="absolute -top-24 -left-24 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-teal-400/20 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <!-- Badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-white/80 text-xs sm:text-sm font-semibold mb-6">
+      <span>{ctaData.location}</span>
+      <span>•</span>
+      <span class="lang-km">{ctaData.tagKm}</span>
+      <span class="lang-en">{ctaData.tagEn}</span>
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-6">
+      <span class="lang-km block">{ctaData.titleKm}</span>
+      <span class="lang-en block">{ctaData.titleEn}</span>
+    </h2>
+
+    <!-- Subtitle -->
+    <p class="text-base sm:text-lg text-emerald-100/90 max-w-2xl mx-auto mb-10 leading-relaxed">
+      <span class="lang-km">{ctaData.descKm}</span>
+      <span class="lang-en">{ctaData.descEn}</span>
+    </p>
+
+    <!-- CTAs -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a
+        href={company.socialLinks.telegram}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-white hover:bg-emerald-50 text-emerald-950 font-black text-base shadow-xl shadow-black/20 hover:scale-105 active:scale-95 transition-all duration-200"
+      >
+        <svg class="w-5 h-5 fill-emerald-700" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+        </svg>
+        <span class="lang-km">{ctaData.btnTelegramKm}</span>
+        <span class="lang-en">{ctaData.btnTelegramEn}</span>
+      </a>
+
+      <a
+        href="#kits"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl bg-emerald-800/80 hover:bg-emerald-800 text-white font-bold text-base border border-emerald-600/60 transition-all duration-200"
+      >
+        <span class="lang-km">{ctaData.btnBrowseKm}</span>
+        <span class="lang-en">{ctaData.btnBrowseEn}</span>
+      </a>
+    </div>
+
+    <!-- Assurance -->
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-emerald-200/80">
+      {ctaData.assurances.map((item, idx) => (
+        <>
+          {idx > 0 && <span>•</span>}
+          <span>{item}</span>
+        </>
+      ))}
+    </div>
+  </div>
+</section>

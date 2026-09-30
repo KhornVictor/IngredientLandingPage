@@ -1,0 +1,77 @@
+{
+  "badge": {
+    "km": "បណ្តាញទំនាក់ទំនង & ការកុម្ម៉ង់",
+    "en": "Order Channels & Live Media"
+  },
+  "title": {
+    "km": "កុម្ម៉ង់ងាយៗ & ទស្សនាការ Live ចម្អិនផ្ទាល់",
+    "en": "Order Seamlessly & Watch Live Cooking Demos"
+  },
+  "description": {
+    "km": "ក្រុមហ៊ុន អ៊ីនហ្គូដ ផ្សព្វផ្សាយ និងទទួលការកុម្ម៉ង់តាមរយៈ Telegram, Facebook, TikTok និងទូរស័ព្ទផ្ទាល់។",
+    "en": "Promoting via Facebook, TikTok, and Telegram; accepting orders directly through social media or phone call."
+  },
+  "channels": [
+    {
+      "id": "telegram",
+      "name": "Telegram Order",
+      "href": "https://t.me/",
+      "color": "#229ED9",
+      "descKm": "កុម្ម៉ង់លឿនបំផុត ផ្ញើសារភ្លាមឆ្លើយតបភ្លាម និងតាមដានការដឹកជញ្ជូន។",
+      "descEn": "Fastest order channel: Instant replies, menu catalog & real-time delivery updates.",
+      "actionKm": "ឆាតកុម្ម៉ង់លើ Telegram →",
+      "actionEn": "Chat & Order Now →"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook Page",
+      "href": "https://facebook.com/",
+      "color": "#1877F2",
+      "descKm": "ទស្សនាការ Live Stream ចម្អិនផ្ទាល់ មើល Feedback និងកុម្ម៉ង់តាម Messenger។",
+      "descEn": "Watch live cooking streams, read customer feedback, and message to order.",
+      "actionKm": "ចូលមើល Facebook →",
+      "actionEn": "Visit Facebook Page →"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok Video Guides",
+      "href": "https://tiktok.com/",
+      "color": "#18181b",
+      "descKm": "វីដេអូខ្លីៗបង្រៀនគន្លឹះធ្វើម្ហូប និងបង្ហាញពីកញ្ចប់គ្រឿងផ្សំស្រស់ៗរាល់ថ្ងៃ។",
+      "descEn": "Short, engaging cooking guides, ingredient previews, and behind-the-scenes prep.",
+      "actionKm": "តាមដានលើ TikTok →",
+      "actionEn": "Follow on TikTok →"
+    },
+    {
+      "id": "phone",
+      "name": "Direct Hotline",
+      "href": "tel:+85512345678",
+      "color": "#16a34a",
+      "descKm": "ទូរស័ព្ទកុម្ម៉ង់ផ្ទាល់សម្រាប់អតិថិជន និងអាណាព្យាបាលដែលមិនសូវចេះប្រើ App។",
+      "descEn": "Direct telephone ordering for busy parents or users preferring a friendly phone call.",
+      "actionKm": "តេកុម្ម៉ង់ឥឡូវនេះ →",
+      "actionEn": "Call Hotline Directly →"
+    }
+  ],
+  "liveShowcase": {
+    "tag": "LIVE INTERACTIVE CONTENT",
+    "titleKm": "ចូលរួមទស្សនាការ Live Stream ចម្អិនផ្ទាល់!",
+    "titleEn": "Join Our Interactive Live Cooking Streams!",
+    "descKm": "ជារៀងរាល់ថ្ងៃ យើងមានការ Live បង្ហាញពីរបៀបរៀបចំគ្រឿង ការថ្លឹងបរិមាណ និងជំហានចម្អិនជាក់ស្តែង។ អ្នកអាចសួរសំណួរផ្ទាល់ និងកុម្ម៉ង់កញ្ចប់គ្រឿងផ្សំដែលចុងភៅកំពុងធ្វើបានភ្លាមៗ!",
+    "descEn": "Every day we stream live showing ingredient preparation, pre-measurement, and step-by-step cooking tips. Ask questions in real time and order the exact kit being prepared on screen!",
+    "youtubeVideoId": "Ak34skdOeNI",
+    "youtubeEmbedUrl": "https://www.youtube.com/embed/Ak34skdOeNI?autoplay=1&mute=1&loop=1&playlist=kEwNkhd5j5A&controls=0&showinfo=0&rel=0&iv_load_policy=3&disablekb=1&playsinline=1",
+    "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"text-emerald-400 mb-3\"><rect width=\"20\" height=\"15\" x=\"2\" y=\"7\" rx=\"2\" ry=\"2\"/><polyline points=\"17 2 12 7 7 2\"/></svg>",
+    "features": [
+      { "km": "គន្លឹះចម្អិនពីចុងភៅ", "en": "Pro chef kitchen secrets" },
+      { "km": "សួរសំណួរឆ្លើយភ្លាមៗ", "en": "Real-time Q&A" },
+      { "km": "កុម្ម៉ង់ឈុតក្នុងពេល Live", "en": "Live-exclusive dish ordering" }
+    ],
+    "scheduleTitleKm": "ផ្សាយផ្ទាល់រៀងរាល់ល្ងាច",
+    "scheduleTitleEn": "Live Every Evening",
+    "scheduleTime": "5:30 PM – 6:30 PM (TikTok & FB)",
+    "actionKm": "តាមដានកាលវិភាគ Live",
+    "actionEn": "Follow Live Schedule",
+    "actionHref": "https://facebook.com/"
+  }
+}

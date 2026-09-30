@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "problem": {
+      "titleKm": "១. ពិបាកទិញទំនិញ និងខាតពេលវេលា",
+      "titleEn": "1. Shopping Difficulty & Market Hassle",
+      "descKm": "វង្វេងមិនដឹងថាត្រូវទិញគ្រឿងផ្សំអ្វីខ្លះ បរិមាណប៉ុន្មាន ហើយត្រូវចំណាយពេលយូរធ្វើដំណើរទៅផ្សារទិញម្តងមួយៗ។",
+      "descEn": "Confusion over what ingredients to buy, required quantities, and hours wasted traveling through crowded fresh markets."
+    },
+    "solution": {
+      "titleKm": "ដំណោះស្រាយ៖ កុម្ម៉ង់រហ័សត្រឹម ២០ នាទី & ដឹកដល់ផ្ទះ",
+      "titleEn": "Solution: Quick ~20-Min Online Ordering & Delivery",
+      "descKm": "កុម្ម៉ង់តាម Telegram ឬ Social Media ត្រឹមតែ ២០ នាទី ឈុតគ្រឿងផ្សំស្រស់ៗត្រូវដឹកជញ្ជូនដល់មាត់ទ្វារផ្ទះអ្នកភ្លាមៗ។",
+      "descEn": "Select your favorite dish online, order in ~20 minutes, and have ready-to-cook packages delivered straight to your door."
+    }
+  },
+  {
+    "id": 2,
+    "problem": {
+      "titleKm": "២. ការខ្ជះខ្ជាយអាហារ និងចំណាយលើសកំណត់",
+      "titleEn": "2. Food Waste & Unnecessary Expense",
+      "descKm": "ផ្សារបង្ខំឱ្យទិញជាដុំធំ ឬច្រើនជាងតម្រូវការជាក់ស្តែង ធ្វើឱ្យគ្រឿងផ្សំសល់រលួយក្នុងទូទឹកកក និងខាតបង់ប្រាក់។",
+      "descEn": "Buying ingredients in bulk or excess leads directly to unused food rotting in the fridge and uncontrolled spending."
+    },
+    "solution": {
+      "titleKm": "ដំណោះស្រាយ៖ កញ្ចប់វាស់តាមកម្រិត (មានគ្រឿងគ្រប់ចំនួន)",
+      "titleEn": "Solution: Pre-Portioned Kits (Zero Leftover Waste)",
+      "descKm": "គ្រឿងផ្សំវាស់តាមរូបមន្តច្បាស់លាស់ គ្មានគ្រឿងសល់ ជួយសន្សំសំចៃ និងគ្រប់គ្រងថវិកាចម្អិនអាហារបាន ១០០%។",
+      "descEn": "Exact portions per recipe eliminate leftover ingredients, preventing food waste and keeping your food budget strictly on track."
+    }
+  },
+  {
+    "id": 3,
+    "problem": {
+      "titleKm": "៣. ឧបសគ្គក្នុងការចម្អិន & ខ្វះជំនាញ",
+      "titleEn": "3. Cooking Inexperience & Technique Barriers",
+      "descKm": "មិនចេះលាយគ្រឿង មិនដឹងដាក់អ្វីមុនក្រោយ ឬខ្លាចធ្វើម្ហូបចេញមកមិនឆ្ងាញ់ដូចចិត្ត។",
+      "descEn": "Inexperience with cooking steps, unsure seasoning ratios, or fear that homemade dishes won't taste delicious."
+    },
+    "solution": {
+      "titleKm": "ដំណោះស្រាយ៖ វីដេអូបង្រៀនមួយជំហានម្តងៗ & Live Stream",
+      "titleEn": "Solution: Step-by-Step Video Guides & Live Demos",
+      "descKm": "វីដេអូខ្លីៗ និងការ Live ណែនាំពីការរៀបចំ ការដាក់គ្រឿង និងគន្លឹះចម្អិន ធ្វើឱ្យអ្នកណាក៏អាចធ្វើម្ហូបបានឆ្ងាញ់ដូចចុងភៅ។",
+      "descEn": "Bite-sized videos and interactive live streams guide prep, timing, and seasoning so anyone can cook like a chef."
+    }
+  },
+  {
+    "id": 4,
+    "problem": {
+      "titleKm": "៤. ឃើញវីដេអូប៉ុន្តែគ្មានគ្រឿងផ្សំ",
+      "titleEn": "4. Recipe Disconnect: Watch but Can't Cook",
+      "descKm": "មើលវីដេអូធ្វើម្ហូបលើ TikTok/Facebook ឃើញទំនងឃ្លានចង់ញ៉ាំ ប៉ុន្តែពិបាករកទិញគ្រឿងឱ្យគ្រប់តាមគេ។",
+      "descEn": "Social media cooking videos look mouthwatering, but viewers still face the burden of sourcing every individual ingredient."
+    },
+    "solution": {
+      "titleKm": "ដំណោះស្រាយ៖ មើលឃើញម្ហូបណា កុម្ម៉ង់ឈុតនោះបានភ្លាម",
+      "titleEn": "Solution: One-Click Sync Between Content & Ingredients",
+      "descKm": "Ingoude ផ្គួបផ្សំមាតិកាវីដេអូជាមួយកញ្ចប់គ្រឿងផ្សំពិតប្រាកដ — ចូលចិត្តម្ហូបណា កុម្ម៉ង់ឈុតនោះភ្លាម មកដល់ផ្ទះបើកប្រអប់ចម្អិនតែម្តង! ",
+      "descEn": "Seamless integration: every video has an exact matching meal-kit delivered to your door. No ingredient hunting required."
+    }
+  }
+]

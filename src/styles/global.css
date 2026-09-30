@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Kantumruy Pro', system-ui, -apple-system, sans-serif;
+  --font-khmer: 'Kantumruy Pro', system-ui, sans-serif;
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-primary-500: #22c55e;
+  --color-primary-600: #16a34a;
+  --color-primary-700: #15803d;
+  --color-primary-800: #166534;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+}
+
+/* Instant Bilingual Visibility System */
+html[data-lang="km"] .lang-en {
+  display: none !important;
+}
+
+html[data-lang="en"] .lang-km {
+  display: none !important;
+}
+
+html[data-lang="km"] {
+  font-family: 'Kantumruy Pro', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+html[data-lang="en"] {
+  font-family: 'Plus Jakarta Sans', 'Kantumruy Pro', system-ui, sans-serif;
+}
+
+/* Custom smooth transitions and animations */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for modern feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,93 @@
+{
+  "badge": {
+    "km": "🚀 គម្រោងថ្មី! ចាប់ផ្តើមប្រតិបត្តិការដំបូងនៅ ក្រុងបាត់ដំបង",
+    "en": "🚀 Startup Launch! Starting operations in Battambang City"
+  },
+  "title": {
+    "km": "ចម្អិនម្ហូបនៅផ្ទះយ៉ាងងាយស្រួល ជាមួយ ឈុតគ្រឿងផ្សំវាស់ស្រេច",
+    "en": "Simplify Home Cooking with Pre-Measured Meal Kits & Video Guides"
+  },
+  "description": {
+    "km": "ក្រុមហ៊ុន អ៊ីនហ្គ្រីដៀន (Ingredient Food Service) ផ្តល់ជូននូវកញ្ចប់គ្រឿងផ្សំចម្អិនអាហារស្រស់ៗ មានគ្រឿងគ្រប់ចំនួនតាមមុខម្ហូប រួមទាំងវីដេអូនាំផ្លូវចម្អិនមួយជំហានម្តងៗ។ កុម្ម៉ង់រហ័សត្រឹម ២០ នាទី ដឹកដល់មាត់ទ្វារ សំចៃពេលវេលា និងកាត់បន្ថយការខ្ជះខ្ជាយ ១០០%!",
+    "en": "Ingredient Company provides pre-portioned, dish-specific fresh ingredient packages paired with step-by-step video tutorials. Order online in ~20 minutes, eliminate food waste, and enjoy delicious home-cooked meals without market stress."
+  },
+  "ctaPrimary": {
+    "km": "មើលឈុតគ្រឿងផ្សំ & តម្លៃ",
+    "en": "Explore Cooking Kits",
+    "href": "#kits"
+  },
+  "ctaSecondary": {
+    "km": "របៀបដែល អ៊ីនហ្គូដ ដំណើរការ",
+    "en": "How It Works",
+    "href": "#how-it-works"
+  },
+  "highlights": [
+    {
+      "icon": "leaf",
+      "titleKm": "បន្លែសាច់ស្រស់",
+      "titleEn": "Fresh Produce",
+      "subKm": "កសិករក្នុងស្រុក",
+      "subEn": "Locally sourced"
+    },
+    {
+      "icon": "scale",
+      "titleKm": "គ្មានខ្ជះខ្ជាយ",
+      "titleEn": "Zero Waste",
+      "subKm": "វាស់តាមរូបមន្ត",
+      "subEn": "Exact portions"
+    },
+    {
+      "icon": "zap",
+      "titleKm": "កុម្ម៉ង់ត្រឹម ២០ នាទី",
+      "titleEn": "Fast 20-min",
+      "subKm": "ដឹកដល់មាត់ទ្វារ",
+      "subEn": "Door delivery"
+    },
+    {
+      "icon": "video",
+      "titleKm": "វីដេអូនាំផ្លូវ & Live",
+      "titleEn": "Video Guides",
+      "subKm": "ចម្អិនតាមងាយៗ",
+      "subEn": "Step-by-step"
+    }
+  ],
+  "featuredKit": {
+    "badgeKm": "✨ ឈុតពេញនិយម",
+    "badgeEn": "✨ Best Seller Kit",
+    "rating": "4.9 (120+ orders)",
+    "bgImage": "/lemongrass.png",
+    "dishKm": "ឈុតសម្លម្ជូរគ្រឿងសាច់គោ",
+    "dishEn": "Lemongrass Beef Sour Soup",
+    "descKm": "រសជាតិខ្មែរដើមពិតៗ ឈ្ងុយគ្រឿងបុកស្រស់ៗ",
+    "descEn": "Authentic Khmer taste with fresh herbal kroeung",
+    "cookTime": "~20 mins",
+    "difficultyKm": "ងាយស្រួល",
+    "difficultyEn": "Easy",
+    "priceUsd": "$3.75",
+    "priceKhr": "(15,000 KHR)",
+    "ingredientsHeaderKm": "គ្រឿងផ្សំវាស់ស្រេចក្នុងកញ្ចប់៖",
+    "ingredientsHeaderEn": "What's Inside This Kit:",
+    "checklist": [
+      {
+        "nameKm": "សាច់គោខ្មែរស្រស់ហាន់រួចរាល់",
+        "nameEn": "Fresh Khmer Beef (Pre-sliced)",
+        "amount": "300g"
+      },
+      {
+        "nameKm": "គ្រឿងបុកស្រស់ (ស្លឹកគ្រៃ រមៀត រំដេង)",
+        "nameEn": "Fresh Kroeung Herb Paste",
+        "amount": "1 Pouch"
+      },
+      {
+        "nameKm": "បន្លែស្រស់ (ត្រកួន ត្រប់ពុតញង)",
+        "nameEn": "Fresh Veggies (Morning glory & Eggplants)",
+        "amount": "Pre-washed"
+      },
+      {
+        "nameKm": "កញ្ចប់គ្រឿងរសជាតិ និងទឹកអំពិលទុំ",
+        "nameEn": "Seasoning Mix & Tamarind Extract",
+        "amount": "Exact Ratio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+---
+import audienceData from '../../public/contents/TargetAudience.json';
+---
+
+<section id="target" class="py-20 md:py-28 bg-white border-b border-stone-200/80">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="inline-block px-3.5 py-1 rounded-full text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
+        <span class="lang-km">{audienceData.badge.km}</span>
+        <span class="lang-en">{audienceData.badge.en}</span>
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight mb-4">
+        <span class="lang-km">{audienceData.title.km}</span>
+        <span class="lang-en">{audienceData.title.en}</span>
+      </h2>
+      <p class="text-base sm:text-lg text-stone-600">
+        <span class="lang-km">{audienceData.description.km}</span>
+        <span class="lang-en">{audienceData.description.en}</span>
+      </p>
+    </div>
+
+    <!-- 3 Persona Cards Grid from JSON -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {audienceData.personas.map((persona) => (
+        <div class="relative rounded-3xl overflow-hidden p-8 border border-stone-800/80 shadow-md hover:shadow-2xl hover:border-emerald-400/80 transition-all duration-300 flex flex-col justify-between group min-h-95">
+          {/* Background Image & Multi-layer Dark Gradient for Readability */}
+          <img
+            src={persona.bgImage}
+            alt={persona.titleEn}
+            class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-linear-to-t from-stone-950/95 via-stone-950/85 to-stone-950/65 group-hover:via-stone-950/75 transition-colors"></div>
+
+          {/* Content Layer */}
+          <div class="relative z-10">
+            <!-- Avatar / Tag -->
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-14 h-14 rounded-2xl flex items-center justify-center group-hover:scale-105 transition-transform bg-emerald-600/90 backdrop-blur-md text-white border border-emerald-400/40 shadow-lg shadow-emerald-950/40">
+                <Fragment set:html={persona.icon} />
+              </span>
+              <span class="text-xs font-bold px-3 py-1 rounded-full border border-emerald-400/40 bg-emerald-900/60 backdrop-blur-md text-emerald-200">
+                <span class="lang-km">{persona.tagKm}</span>
+                <span class="lang-en">{persona.tagEn}</span>
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2 drop-shadow-md">
+              <span class="lang-km">{persona.titleKm}</span>
+              <span class="lang-en">{persona.titleEn}</span>
+            </h3>
+            <p class="text-xs font-semibold uppercase tracking-wider mb-4 text-emerald-400 drop-shadow-xs">
+              <span class="lang-km">{persona.subtitleKm}</span>
+              <span class="lang-en">{persona.subtitleEn}</span>
+            </p>
+
+            <p class="text-sm text-stone-200/95 leading-relaxed mb-6 font-normal drop-shadow-sm">
+              <span class="lang-km">{persona.descKm}</span>
+              <span class="lang-en">{persona.descEn}</span>
+            </p>
+          </div>
+
+          <ul class="relative z-10 space-y-2 text-xs text-stone-200/90 pt-4 border-t border-white/15">
+            {persona.checklist.map((item) => (
+              <li class="flex items-center gap-2">
+                <span class="w-4 h-4 rounded-full flex items-center justify-center text-emerald-300 font-bold shrink-0">✓</span>
+                <span class="lang-km">{item.km}</span>
+                <span class="lang-en">{item.en}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>

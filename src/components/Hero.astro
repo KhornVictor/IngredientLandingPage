@@ -1,0 +1,232 @@
+---
+import hero from '../../public/contents/Hero.json';
+import company from '../../public/contents/Company.json';
+---
+
+<section class="relative pt-8 pb-20 md:pt-14 md:pb-28 overflow-hidden bg-linear-to-b from-emerald-50/50 via-white to-stone-50">
+  <!-- Decorative background elements -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-linear-to-tr from-emerald-200/30 to-teal-100/20 blur-3xl -z-10 rounded-full pointer-events-none"></div>
+  <div class="absolute -top-12 right-0 w-80 h-80 bg-amber-100/40 rounded-full blur-2xl -z-10 pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      
+      <!-- Left Column: Headline, Description & CTAs -->
+      <div class="lg:col-span-7 flex flex-col items-start text-left">
+      
+        <!-- Main Headline -->
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.2] sm:leading-[1.18] mb-6">
+          <span class="lang-km block">
+            {hero.title.km.split('ជាមួយ')[0]} ជាមួយ <span class="text-transparent bg-clip-text bg-linear-to-r from-emerald-700 via-emerald-600 to-teal-600">{hero.title.km.split('ជាមួយ')[1]}</span>
+          </span>
+          <span class="lang-en block">
+            {hero.title.en.split('with')[0]} with <span class="text-transparent bg-clip-text bg-linear-to-r from-emerald-700 via-emerald-600 to-teal-600">{hero.title.en.split('with')[1]}</span>
+          </span>
+        </h1>
+
+        <!-- Value Proposition Description -->
+        <p class="text-base sm:text-lg text-stone-600 mb-8 max-w-2xl leading-relaxed">
+          <span class="lang-km">{hero.description.km}</span>
+          <span class="lang-en">{hero.description.en}</span>
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto mb-10">
+          <a
+            href={hero.ctaPrimary.href}
+            class="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-2xl bg-linear-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white font-bold text-base shadow-lg shadow-emerald-600/30 hover:shadow-xl hover:shadow-emerald-600/40 active:scale-95 transition-all duration-200"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+            </svg>
+            <span class="lang-km">{hero.ctaPrimary.km}</span>
+            <span class="lang-en">{hero.ctaPrimary.en}</span>
+          </a>
+
+          <a
+            href={hero.ctaSecondary.href}
+            class="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-2xl bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 font-semibold text-base shadow-xs hover:border-emerald-500 hover:text-emerald-700 transition-all duration-200"
+          >
+            <svg class="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+            </svg>
+            <span class="lang-km">{hero.ctaSecondary.km}</span>
+            <span class="lang-en">{hero.ctaSecondary.en}</span>
+          </a>
+        </div>
+
+        <!-- Key Value Highlights Strip from JSON -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full border-t border-stone-200/80 pt-6">
+          {hero.highlights.map((h) => (
+            <div class="flex items-center gap-2.5">
+              <span class="w-9 h-9 rounded-xl flex items-center justify-center text-emerald-700 text-lg">
+                {h.icon === 'leaf' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leafy-green preview-icon"><path d="M2 22c1.25-.987 2.27-1.975 3.9-2.2a5.56 5.56 0 0 1 3.8 1.5 4 4 0 0 0 6.187-2.353 3.5 3.5 0 0 0 3.69-5.116A3.5 3.5 0 0 0 20.95 8 3.5 3.5 0 1 0 16 3.05a3.5 3.5 0 0 0-5.831 1.373 3.5 3.5 0 0 0-5.116 3.69 4 4 0 0 0-2.348 6.155C3.499 15.42 4.409 16.712 4.2 18.1 3.926 19.743 3.014 20.732 2 22"/><path d="M2 22 17 7"/></svg>
+                )}
+                {h.icon === 'scale' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale preview-icon"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg>
+                )}
+                {h.icon === 'zap' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap preview-icon"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"/></svg>
+                )}
+                {h.icon === 'video' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video preview-icon"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                )}
+              </span>
+              <div>
+                <div class="text-xs font-bold text-stone-900 leading-snug">
+                  <span class="lang-km">{h.titleKm}</span>
+                  <span class="lang-en">{h.titleEn}</span>
+                </div>
+                <div class="text-[11px] text-stone-500">
+                  <span class="lang-km">{h.subKm}</span>
+                  <span class="lang-en">{h.subEn}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Featured Kit Preview Card -->
+      <div class="lg:col-span-5 relative">
+        <div class="absolute inset-0 rounded-3xl blur-2xl transform rotate-2"></div>
+
+        <div class="relative bg-white rounded-3xl p-6 sm:p-7 border border-stone-200/90 shadow-2xl shadow-stone-300/50">
+          <!-- Dish Visual Banner with Background Image from JSON -->
+          <div class="relative rounded-2xl overflow-hidden mb-5 border border-stone-200/80 shadow-md group">
+            <img
+              src={hero.featuredKit.bgImage}
+              alt={hero.featuredKit.dishEn}
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+            />
+            <div class="absolute inset-0 bg-linear-to-t from-stone-950/95 via-stone-950/70 to-stone-900/40"></div>
+
+            <div class="relative z-10 p-5 flex items-start justify-between">
+              <div>
+                <span class="text-3xl mb-2 inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/20 backdrop-blur-md text-white border border-white/30 shadow-xs">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-soup preview-icon"><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"/><path d="M7 21h10"/><path d="M19.5 12 22 6"/><path d="M16.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62"/><path d="M11.25 3c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62"/><path d="M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62"/></svg>
+                </span>
+                <h3 class="text-xl font-extrabold text-white mb-1 drop-shadow-md">
+                  <span class="lang-km">{hero.featuredKit.dishKm}</span>
+                  <span class="lang-en">{hero.featuredKit.dishEn}</span>
+                </h3>
+                <p class="text-xs text-stone-200 font-medium drop-shadow-sm">
+                  <span class="lang-km">{hero.featuredKit.descKm}</span>
+                  <span class="lang-en">{hero.featuredKit.descEn}</span>
+                </p>
+              </div>
+
+              <!-- Time Badge -->
+              <div class="flex flex-col items-end">
+                <span class="text-xs font-bold text-amber-300 bg-stone-900/80 backdrop-blur-md border border-white/20 px-2.5 py-1 rounded-lg flex items-center gap-1 shadow-sm">
+                  <svg class="w-3 h-3 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span>{hero.featuredKit.cookTime}</span>
+                </span>
+                <span class="text-[11px] text-stone-300 mt-1 font-medium drop-shadow-sm">
+                  <span class="lang-km">{hero.featuredKit.difficultyKm}</span>
+                  <span class="lang-en">{hero.featuredKit.difficultyEn}</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Package Portion Toggle -->
+          <div class="mb-5 rounded-2xl border border-black/10 p-1 flex items-center justify-between text-xs font-bold">
+            <button
+              type="button"
+              class="w-1/2 py-2 rounded-xl bg-linear-to-r from-emerald-700 via-emerald-600 to-teal-600 text-white shadow-xs flex items-center justify-center gap-1.5 transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users preview-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+              <span class="lang-km">ឈុត ២-៣ នាក់</span>
+              <span class="lang-en">2-3 People</span>
+            </button>
+            <button
+              type="button"
+              class="w-1/2 py-2 rounded-xl text-stone-500 hover:text-stone-800 flex items-center justify-center gap-1.5 transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users preview-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+              <span class="lang-km">ឈុត ៤-៥ នាក់</span>
+              <span class="lang-en">4-5 People</span>
+            </button>
+          </div>
+
+          <!-- Inside the Kit Checklist from JSON -->
+          <div class="space-y-2.5 mb-6 text-xs text-stone-700">
+            <div class="font-bold text-stone-900 flex items-center justify-between">
+              <span class="lang-km">{hero.featuredKit.ingredientsHeaderKm}</span>
+              <span class="lang-en">{hero.featuredKit.ingredientsHeaderEn}</span>
+              <span class="text-[10px] bg-emerald-600 text-emerald-50 px-2 py-0.5 rounded-md font-semibold">
+                <span class="lang-km">គ្រប់ចំនួន 100%</span>
+                <span class="lang-en">100% Pre-Portioned</span>
+              </span>
+            </div>
+
+            {hero.featuredKit.checklist.map((item) => (
+              <div class="flex items-center justify-between rounded-xl py-1 border-b border-stone-100 last:border-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-emerald-600 font-bold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
+                  </span>
+                  <span class="lang-km">{item.nameKm}</span>
+                  <span class="lang-en">{item.nameEn}</span>
+                </div>
+                <span class="text-stone-400 font-medium">{item.amount}</span>
+              </div>
+            ))}
+          </div>
+
+          <!-- Video QR Badge -->
+          <div class="p-3 rounded-2xl bg-linear-to-r from-emerald-700 to-teal-700 mb-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play preview-icon"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-white">
+                  <span class="lang-km">វីដេអូបង្រៀនមួយជំហានម្តងៗ</span>
+                  <span class="lang-en">Step-by-step Video Guide Included</span>
+                </p>
+                <p class="text-[11px] text-white/90 font-medium">
+                  <span class="lang-km">ស្កេន QR លើប្រអប់ មើលហើយធ្វើតាមភ្លាម</span>
+                  <span class="lang-en">Scan QR on box to follow the cooking steps</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pricing & Direct Order Button -->
+          <div class="flex items-center justify-between pt-2">
+            <div>
+              <div class="text-[11px] text-stone-500 font-medium">
+                <span class="lang-km">តម្លៃឈុតពេញលេញ</span>
+                <span class="lang-en">All-inclusive Price</span>
+              </div>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-2xl font-black text-stone-900">{hero.featuredKit.priceUsd}</span>
+                <span class="text-xs font-bold text-stone-500">{hero.featuredKit.priceKhr}</span>
+              </div>
+            </div>
+
+            <a
+              href={company.socialLinks.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs flex items-center gap-1.5 shadow-md shadow-emerald-600/30 transition-all"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+              </svg>
+              <span class="lang-km">កុម្ម៉ង់ឈុតនេះ</span>
+              <span class="lang-en">Order This Kit</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

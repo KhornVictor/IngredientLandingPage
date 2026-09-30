@@ -1,0 +1,118 @@
+---
+import benefitsData from '../../public/contents/Benefits.json';
+---
+
+<section id="benefits" class="py-20 md:py-28 bg-stone-50/70 border-b border-stone-200/80 relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="inline-block px-3.5 py-1 rounded-full text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
+        <span class="lang-km">{benefitsData.badge.km}</span>
+        <span class="lang-en">{benefitsData.badge.en}</span>
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight mb-4">
+        <span class="lang-km">{benefitsData.title.km}</span>
+        <span class="lang-en">{benefitsData.title.en}</span>
+      </h2>
+      <p class="text-base sm:text-lg text-stone-600">
+        <span class="lang-km">{benefitsData.description.km}</span>
+        <span class="lang-en">{benefitsData.description.en}</span>
+      </p>
+    </div>
+
+    <!-- 6 Key Benefits Cards Grid from JSON -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+      {benefitsData.benefits.map((b) => (
+        <div class="relative rounded-3xl overflow-hidden p-8 border border-stone-800/80 shadow-md hover:shadow-2xl hover:border-emerald-400/80 transition-all duration-300 flex flex-col justify-between group min-h-85">
+          {/* Background Image & Multi-layer Dark Gradient for Readability */}
+          <img
+            src={b.bgImage || '/lemongrass.png'}
+            alt={b.titleEn}
+            class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-linear-to-t from-stone-950/95 via-stone-950/85 to-stone-950/65 group-hover:via-stone-950/75 transition-colors"></div>
+
+          {/* Content with high contrast white text and drop shadows */}
+          <div class="relative z-10">
+            <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-emerald-600/90 backdrop-blur-md text-white border border-emerald-400/40 shadow-lg shadow-emerald-950/40 group-hover:scale-105 transition-transform">
+              <Fragment set:html={b.icon} />
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 drop-shadow-md">
+              <span class="lang-km">{b.titleKm}</span>
+              <span class="lang-en">{b.titleEn}</span>
+            </h3>
+            <p class="text-sm text-stone-200/95 leading-relaxed mb-4 font-normal drop-shadow-sm">
+              <span class="lang-km">{b.descKm}</span>
+              <span class="lang-en">{b.descEn}</span>
+            </p>
+          </div>
+          <div class="relative z-10 pt-4 border-t border-white/15 flex items-center gap-2 text-xs font-bold text-emerald-300 drop-shadow-xs">
+            <span class="w-4 h-4 flex items-center justify-center text-emerald-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
+            </span>
+            <span class="lang-km">{b.checkKm}</span>
+            <span class="lang-en">{b.checkEn}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Competitive Edge Comparison Table from JSON -->
+    <div class="bg-white rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-md">
+      <div class="max-w-2xl mb-8">
+        <span class="text-xs font-bold uppercase text-emerald-700 py-1 rounded-full">
+          <span class="lang-km">{benefitsData.comparison.badgeKm}</span>
+          <span class="lang-en">{benefitsData.comparison.badgeEn}</span>
+        </span>
+        <h3 class="text-2xl font-extrabold text-stone-900 mt-2">
+          <span class="lang-km">{benefitsData.comparison.titleKm}</span>
+          <span class="lang-en">{benefitsData.comparison.titleEn}</span>
+        </h3>
+        <p class="text-sm text-stone-500 mt-1">
+          <span class="lang-km">{benefitsData.comparison.subKm}</span>
+          <span class="lang-en">{benefitsData.comparison.subEn}</span>
+        </p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs sm:text-sm">
+          <thead>
+            <tr class="border-b border-stone-200 text-stone-400 font-semibold uppercase tracking-wider">
+              <th class="py-3 px-4">
+                <span class="lang-km">លក្ខណៈពិសេស</span>
+                <span class="lang-en">Features</span>
+              </th>
+              <th class="py-3 px-4 text-emerald-700 font-bold bg-emerald-50/70 rounded-t-xl">
+                <span class="lang-km">Ingredient Meal-Kit</span>
+                <span class="lang-en">Ingredient Meal-Kit</span>
+              </th>
+              <th class="py-3 px-4 text-stone-600">
+                <span class="lang-km">ផ្សារប្រពៃណី (Wet Market)</span>
+                <span class="lang-en">Traditional Wet Market</span>
+              </th>
+              <th class="py-3 px-4 text-stone-600">
+                <span class="lang-km">ហាងបាយ/ដឹកជញ្ជូនអាហារស្រេច</span>
+                <span class="lang-en">Cooked Food Delivery Apps</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-stone-100">
+            {benefitsData.comparison.rows.map((row) => (
+              <tr>
+                <td class="py-4 px-4 font-semibold text-stone-900">
+                  <span class="lang-km">{row.featureKm}</span>
+                  <span class="lang-en">{row.featureEn}</span>
+                </td>
+                <td class="py-4 px-4 text-emerald-700 font-bold bg-emerald-50/50">{row.ingoude}</td>
+                <td class="py-4 px-4 text-red-500">{row.market}</td>
+                <td class="py-4 px-4 text-stone-700">{row.delivery}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>

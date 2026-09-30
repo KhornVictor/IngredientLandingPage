@@ -1,0 +1,102 @@
+---
+import howItWorks from '../../public/contents/HowItWorks.json';
+---
+
+<section id="how-it-works" class="py-20 md:py-28 bg-stone-50/60 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Title -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="inline-block px-3.5 py-1 rounded-full text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
+        <span class="lang-km">{howItWorks.badge.km}</span>
+        <span class="lang-en">{howItWorks.badge.en}</span>
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight mb-4">
+        <span class="lang-km">{howItWorks.title.km}</span>
+        <span class="lang-en">{howItWorks.title.en}</span>
+      </h2>
+      <p class="text-base sm:text-lg text-stone-600">
+        <span class="lang-km">{howItWorks.description.km}</span>
+        <span class="lang-en">{howItWorks.description.en}</span>
+      </p>
+    </div>
+
+    <!-- 3 Steps Grid from JSON -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+      {howItWorks.steps.map((item) => (
+        <div class="bg-white rounded-3xl p-8 border border-stone-200/90 shadow-xs hover:shadow-xl transition-all duration-300 relative flex flex-col group">
+          <div class={`w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl mb-6 group-hover:scale-110 group-hover:text-white transition-all duration-300 ${
+            item.color === 'emerald' ? 'bg-emerald-100 text-emerald-800 group-hover:bg-emerald-600' :
+            item.color === 'teal' ? 'bg-teal-100 text-teal-800 group-hover:bg-teal-600' :
+            'bg-amber-100 text-amber-800 group-hover:bg-amber-600'
+          }`}>
+            {item.step}
+          </div>
+          
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-bold uppercase px-2 py-0.5 rounded-md bg-stone-100 text-stone-600">
+              <span class="lang-km">{item.stepLabelKm}</span>
+              <span class="lang-en">{item.stepLabelEn}</span>
+            </span>
+            <span class={`text-xs font-semibold ${
+              item.color === 'emerald' ? 'text-emerald-600' :
+              item.color === 'teal' ? 'text-teal-600' :
+              'text-amber-600'
+            }`}>{item.tag}</span>
+          </div>
+
+          <h3 class="text-xl font-bold text-stone-900 mb-3">
+            <span class="lang-km">{item.titleKm}</span>
+            <span class="lang-en">{item.titleEn}</span>
+          </h3>
+
+          <p class="text-sm text-stone-600 leading-relaxed mb-6 flex-1">
+            <span class="lang-km">{item.descKm}</span>
+            <span class="lang-en">{item.descEn}</span>
+          </p>
+
+          <div class="p-3.5 rounded-2xl bg-stone-50 border border-stone-200/70 text-xs text-stone-600 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-600 font-bold">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              </span>
+              <span class="lang-km">{item.footerCheckKm}</span>
+              <span class="lang-en">{item.footerCheckEn}</span>
+            </div>
+            <span class="font-bold text-stone-700">{item.footerTag}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Quick Callout banner below steps -->
+    <div class="mt-12 rounded-3xl bg-linear-to-r from-emerald-800 to-teal-900 text-white p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-2xl shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-soup preview-icon"><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"/><path d="M7 21h10"/><path d="M19.5 12 22 6"/><path d="M16.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62"/><path d="M11.25 3c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62"/><path d="M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62"/></svg>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg">
+            <span class="lang-km">{howItWorks.callout.titleKm}</span>
+            <span class="lang-en">{howItWorks.callout.titleEn}</span>
+          </h4>
+          <p class="text-xs sm:text-sm text-emerald-200">
+            <span class="lang-km">{howItWorks.callout.descKm}</span>
+            <span class="lang-en">{howItWorks.callout.descEn}</span>
+          </p>
+        </div>
+      </div>
+
+      <a
+        href={howItWorks.callout.ctaHref}
+        class="shrink-0 px-6 py-3 rounded-xl bg-white hover:bg-stone-100 text-emerald-900 font-bold text-sm shadow-md transition-all active:scale-95"
+      >
+        <span class="lang-km">{howItWorks.callout.ctaKm}</span>
+        <span class="lang-en">{howItWorks.callout.ctaEn}</span>
+      </a>
+    </div>
+
+  </div>
+</section>

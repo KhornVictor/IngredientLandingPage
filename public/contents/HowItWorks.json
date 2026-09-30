@@ -1,0 +1,67 @@
+{
+  "badge": {
+    "km": "៣ ជំហានងាយៗ",
+    "en": "Simple 3-Step Process"
+  },
+  "title": {
+    "km": "របៀបដែល អ៊ីនហ្គ្រីដៀន (Ingredient) ដំណើរការ",
+    "en": "How Ingredient Meal-Kit Service Works"
+  },
+  "description": {
+    "km": "មិនបាច់ពិបាកដើរផ្សារ មិនបាច់ឈឺក្បាលវាស់គ្រឿង គ្រាន់តែកុម្ម៉ង់ ទទួល និងចម្អិនតាមវីដេអូ!",
+    "en": "No market traffic, no confusing recipes. Just select, receive, and cook with step-by-step guidance!"
+  },
+  "steps": [
+    {
+      "step": "01",
+      "color": "emerald",
+      "stepLabelKm": "ជំហានទី ១",
+      "stepLabelEn": "Step 1",
+      "tag": "~20 Mins Order",
+      "titleKm": "ជ្រើសរើសមុខម្ហូប & ទំហំឈុត",
+      "titleEn": "Choose Dish & Serving Size",
+      "descKm": "ចូលមើលបញ្ជីមុខម្ហូបប្រចាំថ្ងៃតាម Telegram ឬ Facebook ហើយជ្រើសរើសទំហំឈុតសមស្រប៖ ឈុត ២-៣ នាក់ ឬ ឈុត ៤-៥ នាក់ ទៅតាមចំនួនសមាជិកក្នុងគ្រួសារ។",
+      "descEn": "Browse our daily menu online via Telegram or Facebook. Select customized family portion sizes: 2–3 People or 4–5 People with clear transparent pricing.",
+      "footerCheckKm": "កុម្ម៉ង់រហ័សតាម Social Media",
+      "footerCheckEn": "Quick Order via Social Media",
+      "footerTag": "Telegram / FB"
+    },
+    {
+      "step": "02",
+      "color": "emerald",
+      "stepLabelKm": "ជំហានទី ២",
+      "stepLabelEn": "Step 2",
+      "tag": "Battambang City",
+      "titleKm": "ទទួលកញ្ចប់គ្រឿងផ្សំដល់មាត់ទ្វារ",
+      "titleEn": "Fast Doorstep Delivery",
+      "descKm": "កញ្ចប់គ្រឿងផ្សំស្រស់ៗ ត្រូវបានរៀបចំយ៉ាងស្អាត អនាម័យ និងវាស់តាមកម្រិតត្រឹមត្រូវ (មានគ្រឿងទេសគ្រប់ចំនួន) ដឹកជញ្ជូនរហ័សដល់ផ្ទះរបស់អ្នកក្នុងក្រុងបាត់ដំបង។",
+      "descEn": "Receive hygienically packed fresh ingredients and pre-measured seasoning pouches (\"គ្រឿងគ្រប់ចំនួន\") delivered quickly to your home in Battambang city.",
+      "footerCheckKm": "បន្លែសាច់ស្រស់ & គ្រឿងវាស់ស្រេច",
+      "footerCheckEn": "Pre-portioned Fresh Ingredients",
+      "footerTag": "100% Zero Waste"
+    },
+    {
+      "step": "03",
+      "color": "emerald",
+      "stepLabelKm": "ជំហានទី ៣",
+      "stepLabelEn": "Step 3",
+      "tag": "Video & Live",
+      "titleKm": "ស្កេនមើលវីដេអូ & ចម្អិនភ្លាម",
+      "titleEn": "Scan Video Guide & Cook",
+      "descKm": "ស្កេន QR Code លើកញ្ចប់ដើម្បីមើលវីដេអូបង្រៀនមួយជំហានម្តងៗ ឬចូលរួម Live Stream ធ្វើតាមការណែនាំពីចុងភៅ។ ចម្អិនបានឆ្ងាញ់ពិតៗក្នុងរយៈពេលត្រឹមតែ ១៥-២៥ នាទី!",
+      "descEn": "Scan the box QR code for short, easy-to-follow video instructions or tune into our interactive Live streams. Cook delicious, chef-quality food in just 15-25 minutes!",
+      "footerCheckKm": "ឆ្ងាញ់ដូចចុងភៅធ្វើផ្ទាល់",
+      "footerCheckEn": "Chef-level results guaranteed",
+      "footerTag": "15–25 Mins"
+    }
+  ],
+  "callout": {
+    "titleKm": "គ្មានការខ្ជះខ្ជាយ គ្មានការសល់គ្រឿងក្នុងទូទឹកកក!",
+    "titleEn": "No leftover waste, no forgotten groceries rotting in your fridge!",
+    "descKm": "រាល់គ្រឿងផ្សំត្រូវបានវាស់តាមកម្រិតត្រឹមត្រូវតាមរូបមន្តចាននីមួយៗ ១០០%។",
+    "descEn": "Every single ingredient is weighed and measured to the precise recipe requirements.",
+    "ctaKm": "មើលមុខម្ហូបគំរូ",
+    "ctaEn": "Browse Sample Menu",
+    "ctaHref": "#kits"
+  }
+}

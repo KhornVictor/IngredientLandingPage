@@ -1,0 +1,41 @@
+{
+  "badge": {
+    "km": "១. គំនិតស្នូលនៃគម្រោងអាជីវកម្ម",
+    "en": "1. Core Business Concept"
+  },
+  "title": {
+    "km": "សេវាកម្មកញ្ចប់គ្រឿងផ្សំចម្អិនអាហារអនឡាញ (Online Cooking Kits)",
+    "en": "The Complete Online Meal-Kit & Instructional Media Service"
+  },
+  "description": {
+    "km": "គំនិតស្នូលរបស់ ក្រុមហ៊ុន អ៊ីនហ្គូដ (Ingoude Company) គឺផ្តល់ជូននូវ កញ្ចប់គ្រឿងផ្សំវាស់តាមកម្រិតត្រឹមត្រូវតាមមុខម្ហូបនីមួយៗ (\"Cooking Kits\") ដែលអាចកុម្ម៉ង់បានយ៉ាងងាយស្រួលតាមប្រព័ន្ធអនឡាញ អមដោយ មាតិកាវីដេអូនាំផ្លូវចម្អិនមួយជំហានម្តងៗ និងការផ្សាយផ្ទាល់ (Live Streams) ដើម្បីជួយណែនាំអតិថិជនឱ្យចម្អិនបានយ៉ាងងាយ និងឆ្ងាញ់ពិតៗនៅគេហដ្ឋាន។",
+    "en": "The core concept of Ingoude Company is delivering pre-measured, dish-specific ingredient packages (\"Cooking Kits\") ordered online, accompanied by instructional step-by-step video tutorials and interactive Live Streams that guide customers effortlessly through cooking at home."
+  },
+  "bgImage": "https://mysiemreaptours.com/wp-content/uploads/2024/08/15-Must-Try-Khmer-Recipes-That-Will-Make-Your-Taste-Buds-Dance.jpg",
+  "pillars": [
+    {
+      "icon": "package",
+      "color": "emerald",
+      "titleKm": "កញ្ចប់គ្រឿងផ្សំវាស់ស្រេច",
+      "titleEn": "Pre-Measured Packages",
+      "descKm": "មានគ្រឿងទេសគ្រប់ចំនួន តាមរូបមន្តចាននីមួយៗ",
+      "descEn": "Calibrated to exact recipe ratios"
+    },
+    {
+      "icon": "zap",
+      "color": "amber",
+      "titleKm": "កុម្ម៉ង់អនឡាញ & ដឹកជូន",
+      "titleEn": "Online Order & Delivery",
+      "descKm": "កុម្ម៉ង់ត្រឹម ២០ នាទី ដឹកដល់ផ្ទះនៅក្រុងបាត់ដំបង",
+      "descEn": "~20 min ordering with doorstep delivery"
+    },
+    {
+      "icon": "clapperboard",
+      "color": "rose",
+      "titleKm": "វីដេអូនាំផ្លូវ & ការ Live",
+      "titleEn": "Video Guides & Live Demos",
+      "descKm": "ស្កេន QR មើលវីដេអូនាំផ្លូវចម្អិនភ្លាមៗ",
+      "descEn": "Scan QR to follow step-by-step guides"
+    }
+  ]
+}

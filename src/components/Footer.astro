@@ -1,0 +1,157 @@
+---
+import company from '../../public/contents/Company.json';
+---
+
+<footer class="bg-stone-900 text-stone-300 pt-16 pb-12 border-t border-stone-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-stone-800">
+      
+      <!-- Company Brand & Mission (2 cols) -->
+      <div class="lg:col-span-2">
+        <a href="#" class="flex items-center gap-3 mb-4 group">
+          <div class="w-10 h-10 rounded-2xl flex items-center justify-center group-hover:border-emerald-500/50 group-hover:scale-105 transition-all">
+            <img src="/logo.png" alt={company.name} class="w-full h-full object-contain" />
+          </div>
+          <div>
+            <span class="font-black text-xl text-white tracking-tight group-hover:text-emerald-400 transition-colors">{company.name} Company</span>
+            <span class="block text-[11px] text-emerald-400 font-semibold uppercase tracking-wider">Food Service Startup</span>
+          </div>
+        </a>
+
+        <p class="text-xs sm:text-sm text-stone-400 leading-relaxed mb-6 max-w-sm">
+          <span class="lang-km">{company.description.km}</span>
+          <span class="lang-en">{company.description.en}</span>
+        </p>
+
+        <div class="flex items-center gap-2 text-xs text-stone-400">
+          <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/>
+          </svg>
+          <span class="lang-km">ទីតាំងប្រតិបត្តិការ៖ <strong class="text-stone-200">{company.location.textKm}</strong></span>
+          <span class="lang-en">Operations: <strong class="text-stone-200">{company.location.textEn}</strong></span>
+        </div>
+      </div>
+
+      <!-- Quick Navigation -->
+      <div>
+        <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">
+          <span class="lang-km">ទំព័ររហ័ស</span>
+          <span class="lang-en">Quick Links</span>
+        </h4>
+        <ul class="space-y-2.5 text-xs text-stone-400">
+          {company.navLinks.slice(0, 5).map((link) => (
+            <li>
+              <a href={link.href} class="hover:text-emerald-400 transition-colors flex items-center gap-2 group">
+                <svg class="w-3 h-3 text-stone-600 group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+                </svg>
+                <span class="lang-km">{link.labelKm}</span>
+                <span class="lang-en">{link.labelEn}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Target & Strategy -->
+      <div>
+        <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">
+          <span class="lang-km">អតិថិជន & សេវា</span>
+          <span class="lang-en">Audience & Kits</span>
+        </h4>
+        <ul class="space-y-2.5 text-xs text-stone-400">
+          {company.audienceLinks.map((link) => (
+            <li>
+              <a href={link.href} class="hover:text-emerald-400 transition-colors flex items-center gap-2 group">
+                <svg class="w-3 h-3 text-stone-600 group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+                </svg>
+                <span class="lang-km">{link.labelKm}</span>
+                <span class="lang-en">{link.labelEn}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Social & Contact -->
+      <div>
+        <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">
+          <span class="lang-km">ទំនាក់ទំនង & កុម្ម៉ង់</span>
+          <span class="lang-en">Channels & Support</span>
+        </h4>
+        <ul class="space-y-3 text-xs text-stone-400">
+          <li>
+            <a href={company.socialLinks.telegram} target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors flex items-center gap-2.5 group">
+              <span class="w-7 h-7 rounded-lg bg-[#229ED9]/15 text-[#229ED9] flex items-center justify-center group-hover:bg-[#229ED9] group-hover:text-white transition-all shrink-0">
+                <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+                </svg>
+              </span>
+              <span>Telegram Channel & Bot</span>
+            </a>
+          </li>
+          <li>
+            <a href={company.socialLinks.facebook} target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors flex items-center gap-2.5 group">
+              <span class="w-7 h-7 rounded-lg bg-[#1877F2]/15 text-[#1877F2] flex items-center justify-center group-hover:bg-[#1877F2] group-hover:text-white transition-all shrink-0">
+                <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </span>
+              <span>Facebook Official Page</span>
+            </a>
+          </li>
+          <li>
+            <a href={company.socialLinks.tiktok} target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors flex items-center gap-2.5 group">
+              <span class="w-7 h-7 rounded-lg bg-stone-800 text-stone-200 flex items-center justify-center group-hover:bg-white group-hover:text-stone-950 transition-all shrink-0">
+                <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 16 16">
+                  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                </svg>
+              </span>
+              <span>TikTok Video Cooking</span>
+            </a>
+          </li>
+          <li>
+            <a href={`tel:${company.socialLinks.phone}`} class="hover:text-emerald-400 transition-colors flex items-center gap-2.5 group">
+              <span class="w-7 h-7 rounded-lg bg-emerald-500/15 text-emerald-400 flex items-center justify-center group-hover:bg-emerald-500 group-hover:text-stone-950 transition-all shrink-0">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <span>{company.socialLinks.phoneDisplay}</span>
+            </a>
+          </li>
+          <li>
+            <a href="#faq" class="hover:text-emerald-400 transition-colors flex items-center gap-2.5 group">
+              <span class="w-7 h-7 rounded-lg bg-amber-500/15 text-amber-400 flex items-center justify-center group-hover:bg-amber-500 group-hover:text-stone-950 transition-all shrink-0">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                  <path d="M12 17h.01"/>
+                </svg>
+              </span>
+              <span class="lang-km">សំណួរញឹកញាប់ (FAQ)</span>
+              <span class="lang-en">Help & FAQ</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright & Bilingual Note -->
+    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+      <div>
+        <p>{company.footer.copyright}</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <svg class="w-3.5 h-3.5 text-emerald-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        <span class="lang-km">{company.footer.mottoKm}</span>
+        <span class="lang-en">{company.footer.mottoEn}</span>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,51 @@
+{
+  "badge": {
+    "km": "ចម្ងល់នានា",
+    "en": "Got Questions?"
+  },
+  "title": {
+    "km": "សំណួរដែលត្រូវបានសួរញឹកញាប់ (FAQ)",
+    "en": "Frequently Asked Questions"
+  },
+  "description": {
+    "km": "ព័ត៌មានលម្អិតអំពីសេវាកម្មកញ្ចប់គ្រឿងផ្សំ និងរបៀបដំណើរការរបស់ អ៊ីនហ្រ្គីដៀន (Ingredient)",
+    "en": "Everything you need to know about our meal-kit service and delivery process."
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "questionKm": "១. តើក្នុងកញ្ចប់គ្រឿងផ្សំ អ៊ីនហ្រ្គីដៀន មានអ្វីខ្លះ?",
+      "questionEn": "1. What exactly is included inside an Ingredient cooking kit?",
+      "answerKm": "ក្នុងកញ្ចប់នីមួយៗរួមមាន៖ សាច់ស្រស់ហាន់រួចរាល់ បន្លែស្រស់ក្នុងស្រុកលាងស្អាត គ្រឿងបុក (Kroeung) ស្រស់ៗ កញ្ចប់គ្រឿងទេសវាស់តាមកម្រិតត្រឹមត្រូវ (មានគ្រឿងទេសគ្រប់ចំនួន) និងស្លាក QR Code សម្រាប់ស្កេនមើលវីដេអូនាំផ្លូវចម្អិនមួយជំហានម្តងៗ។",
+      "answerEn": "Each cooking kit contains pre-sliced fresh meats, washed fresh local vegetables, authentic fresh herbal paste (kroeung), pre-measured seasoning ratio pouches (\"គ្រឿងគ្រប់ចំនួន\"), and a QR code linking directly to that recipe's HD step-by-step video guide."
+    },
+    {
+      "id": 2,
+      "questionKm": "២. តើការកុម្ម៉ង់ចំណាយពេលប៉ុន្មាន ហើយដឹកជញ្ជូននៅឯណាខ្លះ?",
+      "questionEn": "2. How fast is the ordering process and where do you deliver?",
+      "answerKm": "ការជ្រើសរើស និងកុម្ម៉ង់អនឡាញចំណាយពេលត្រឹមតែប្រហែល ២០ នាទី ប៉ុណ្ណោះតាមរយៈ Telegram, Facebook ឬទូរស័ព្ទ។ បច្ចុប្បន្ន យើងចាប់ផ្តើមប្រតិបត្តិការដំបូងនៅ ក្រុងបាត់ដំបង ដោយផ្តល់អាទិភាពដល់គេហដ្ឋានក្បែរតំបន់ចែកចាយកណ្តាលក្រុង។",
+      "answerEn": "The online selection and checkout takes only ~20 minutes via Telegram, Facebook Messenger, or phone. We currently prioritize residential households across Battambang City, with focus on core urban delivery zones."
+    },
+    {
+      "id": 3,
+      "questionKm": "៣. តើទំហំឈុតមានប៉ុន្មានបែប និងសាកសមនឹងមនុស្សប៉ុន្មាននាក់?",
+      "questionEn": "3. What portion sizes are available?",
+      "answerKm": "យើងរៀបចំកញ្ចប់ជា ២ ទំហំចម្បង៖<br />• <strong>ឈុត ២-៣ នាក់៖</strong> សាកសមសម្រាប់សិស្ស និស្សិត អ្នកនៅបន្ទប់ជួល ឬគូស្វាមីភរិយា។<br />• <strong>ឈុត ៤-៥ នាក់៖</strong> សាកសមសម្រាប់ក្រុមគ្រួសារ ឬការញ៉ាំជុំគ្នាជាមួយមិត្តភក្តិ។",
+      "answerEn": "We provide two standardized portion options:<br />• <strong>2–3 People Kit:</strong> Ideal for solo students, roommates, or couples.<br />• <strong>4–5 People Kit:</strong> Tailored for families or small gatherings."
+    },
+    {
+      "id": 4,
+      "questionKm": "៤. បើខ្ញុំមិនចេះធ្វើម្ហូប តើអាចធ្វើតាមបានដែរឬទេ?",
+      "questionEn": "4. I have zero cooking experience. Can I really make these dishes?",
+      "answerKm": "ពិតជាអាចបាន ១០០%! គោលបំណងចម្បងរបស់ អ៊ីនហ្គូដ គឺជួយអ្នកដែលមិនសូវចេះធ្វើម្ហូប។ រាល់គ្រឿងផ្សំត្រូវបានវាស់បរិមាណរួចរាល់ ដូច្នេះអ្នកមិនបាច់បារម្ភរឿងប្រៃ ផ្អែម ឬខ្វះគ្រឿងឡើយ។ គ្រាន់តែស្កេនមើលវីដេអូ ឬចូលរួម Live Stream ធ្វើតាមមួយជំហានម្តងៗ នោះម្ហូបនឹងចេញមកឈ្ងុយឆ្ងាញ់ដូចចុងភៅធ្វើផ្ទាល់!",
+      "answerEn": "Absolutely 100%! Ingoude was specifically designed to eliminate cooking anxiety. Because every seasoning ratio is pre-measured and calibrated, you don't have to worry about over-salting or missing ingredients. Just scan the video or tune into our daily live stream and follow along step by step."
+    },
+    {
+      "id": 5,
+      "questionKm": "៥. ហេតុអ្វីបានជា អ៊ីនហ្គូដ ជួយកាត់បន្ថយការខ្ជះខ្ជាយអាហារ & សន្សំប្រាក់?",
+      "questionEn": "5. How does Ingoude prevent food waste and save money?",
+      "answerKm": "ការដើរផ្សារធម្មតា តែងតែតម្រូវឱ្យអ្នកទិញបន្លែមួយបាច់ធំ ឬគ្រឿងទេសមួយដបពេញ ទាំងដែលអ្នកត្រូវការតែ ២ ស្លាបព្រា ធ្វើឱ្យគ្រឿងដែលសល់រលួយខូចក្នុងទូទឹកកក។ ជាមួយ អ៊ីនហ្គូដ អ្នកបង់ថ្លៃតែអ្វីដែលអ្នកញ៉ាំប៉ុណ្ណោះ គ្មានគ្រឿងសល់ គ្មានការខាតបង់ប្រាក់ឥតប្រយោជន៍។",
+      "answerEn": "Traditional markets force you to buy full bunches and whole bottles of condiments when you only need a pinch or two. The leftovers spoil in your fridge alongside wasted money. With Ingoude, you only purchase the exact required portions, eliminating waste and keeping your food expenses completely optimized."
+    }
+  ]
+}

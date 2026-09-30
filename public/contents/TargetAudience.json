@@ -1,0 +1,70 @@
+{
+  "badge": {
+    "km": "អតិថិជនគោលដៅ",
+    "en": "Target Audience"
+  },
+  "title": {
+    "km": "តើ អ៊ីនហ្គ្រីដៀន (Ingredient) សាកសមនឹងអ្នកណាខ្លះ?",
+    "en": "Designed Specifically for Your Lifestyle"
+  },
+  "description": {
+    "km": "មិនថាអ្នករស់នៅបន្ទប់ជួលម្នាក់ឯង ជាបុគ្គលិកការិយាល័យរវល់ ឬជាមេផ្ទះដែលចង់បានភាពងាយស្រួល Ingredient ត្រូវបានរចនាឡើងដើម្បីអ្នក!",
+    "en": "Whether you're a student living in an apartment, a busy professional, or a homemaker managing family meals, Ingredient fits seamlessly into your daily routine."
+  },
+  "personas": [
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"/><path d=\"M22 10v6\"/><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"/></svg>",
+      "color": "blue",
+      "bgImage": "/audience-students.jpg",
+      "tagKm": "អាយុ ២០-៤០ ឆ្នាំ",
+      "tagEn": "Ages 20–40",
+      "titleKm": "សិស្ស និស្សិត & យុវជន",
+      "titleEn": "Students & Young Adults",
+      "subtitleKm": "រស់នៅបន្ទប់ជួល ឬផ្ទះផ្ទាល់ខ្លួន",
+      "subtitleEn": "Living alone or renting apartments",
+      "descKm": "ចង់ចម្អិនម្ហូបញ៉ាំខ្លួនឯងដើម្បីសុខភាព និងសន្សំសំចៃ ប៉ុន្តែមិនចង់ទិញគ្រឿងច្រើនសល់ក្នុងបន្ទប់ជួល ឬមិនសូវចេះធ្វើម្ហូប។ ឈុត ២-៣ នាក់ រួមជាមួយវីដេអូបង្រៀន គឺជាដំណោះស្រាយល្អឥតខ្ចោះ!",
+      "descEn": "Want to cook healthy meals and save money, but have limited kitchen space and inexperience. Our 2-3 portion kits with step-by-step videos eliminate guesswork and waste.",
+      "checklist": [
+        { "km": "ទំហំឈុតល្មមញ៉ាំ គ្មានសល់គ្រឿង", "en": "Ideal portion sizes, no leftover waste" },
+        { "km": "វីដេអូបង្រៀនមើលហើយធ្វើតាមភ្លាម", "en": "Follow simple video steps with ease" },
+        { "km": "តម្លៃសមរម្យសម្រាប់សិស្ស", "en": "Budget-friendly pricing for youth" }
+      ]
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"7\" rx=\"2\" ry=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg>",
+      "color": "emerald",
+      "bgImage": "/audience-professionals.jpg",
+      "tagKm": "រវល់នឹងការងារ",
+      "tagEn": "Time-Constrained",
+      "titleKm": "បុគ្គលិកធ្វើការ & អ្នកអាជីព",
+      "titleEn": "Working Professionals",
+      "subtitleKm": "ខ្វះពេលវេលាទៅផ្សារ & រៀបចំ",
+      "subtitleEn": "No time for grocery shopping",
+      "descKm": "ចេញពីធ្វើការហត់នឿយ មិនចង់ដើរផ្សារ ឬអង្គុយលាងបន្លែហាន់សាច់។ គ្រាន់តែកុម្ម៉ង់ទុកជាមុន ឈុតម្ហូបដឹកដល់ផ្ទះ ចំណាយពេលត្រឹម ១៥-២០ នាទី គឺបានញ៉ាំបាយក្តៅៗស្រស់ៗ។",
+      "descEn": "Exhausted after long office hours, the last thing you want is market traffic or laborious food prep. Pre-order online and cook a nutritious dinner in just 15-20 minutes.",
+      "checklist": [
+        { "km": "កុម្ម៉ង់ត្រឹម ២០ នាទី ដឹកដល់ផ្ទះ", "en": "20-minute order with direct delivery" },
+        { "km": "គ្រឿងហាន់និងវាស់ស្រេច មិនហត់", "en": "Pre-washed & sliced, zero prep hassle" },
+        { "km": "ជៀសវាងអាហារខាងក្រៅដែលមិនមានអនាម័យ", "en": "Avoid unhealthy roadside fast foods" }
+      ]
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg>",
+      "color": "amber",
+      "bgImage": "/audience-family.jpg",
+      "tagKm": "គ្រួសារ & អាណាព្យាបាល",
+      "tagEn": "Family Caregivers",
+      "titleKm": "មេផ្ទះ & អាណាព្យាបាលរវល់",
+      "titleEn": "Housewives & Homemakers",
+      "subtitleKm": "ចង់បានភាពងាយស្រួលសម្រាប់គ្រួសារ",
+      "subtitleEn": "Convenient Family Meal Planning",
+      "descKm": "ត្រូវរៀបចំម្ហូបជារៀងរាល់ថ្ងៃ ពិបាកគិតមុខម្ហូប និងធុញទ្រាន់នឹងការទិញគ្រឿងច្រើនពេក។ ឈុត ៤-៥ នាក់ ផ្តល់ភាពងាយស្រួល គ្រប់គ្រងថវិកាច្បាស់លាស់ និងមានមុខម្ហូបប្លែកៗមិនចេះជាន់គ្នា។",
+      "descEn": "Managing daily household meals is demanding. Our 4–5 person family packages provide convenient recipe variety, eliminate leftover food rot, and streamline monthly kitchen budgets.",
+      "checklist": [
+        { "km": "ឈុតធំសម្រាប់គ្រួសារ ៤-៥ នាក់", "en": "Generous portions for 4–5 people" },
+        { "km": "គ្រឿងផ្សំធម្មជាតិក្នុងស្រុក មានសុវត្ថិភាព", "en": "Fresh, safe local ingredients for kids" },
+        { "km": "គ្រប់គ្រងថវិកាផ្ទះបាយបានច្បាស់លាស់", "en": "Predictable household grocery costs" }
+      ]
+    }
+  ]
+}

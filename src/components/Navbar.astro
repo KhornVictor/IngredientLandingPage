@@ -1,0 +1,194 @@
+---
+import company from '../../public/contents/Company.json';
+---
+
+<header class="sticky top-0 z-50 backdrop-blur-md bg-white/90 border-b border-stone-200/80 transition-all duration-300 shadow-xs">
+  <!-- Top Announcement Bar -->
+  <div class="bg-linear-to-r from-emerald-700 via-emerald-600 to-teal-700 text-white text-xs md:text-sm py-2 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-2 mx-auto md:mx-0">
+        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/20 text-emerald-100">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+        </span>
+        <span class="lang-km font-medium">{company.announcement.textKm}</span>
+        <span class="lang-en font-medium">{company.announcement.textEn}</span>
+      </div>
+
+      <div class="hidden md:flex items-center gap-4 text-xs text-emerald-100">
+        <div class="flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-emerald-300" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+          </svg>
+          <span class="lang-km">{company.announcement.subKm}</span>
+          <span class="lang-en">{company.announcement.subEn}</span>
+        </div>
+        <span>•</span>
+        <a href="#channels" class="hover:text-white underline transition-colors">
+          <span class="lang-km">{company.announcement.liveLinkKm}</span>
+          <span class="lang-en">{company.announcement.liveLinkEn}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <nav class="mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <!-- Brand Logo -->
+    <a href="#" class="flex items-center gap-3 group">
+      <div class="w-11 h-11 flex items-center justify-center text-white group-hover:scale-105 transition-transform duration-200">
+        <img src="/logo.png" alt={company.name} class="w-full h-full object-contain" />
+      </div>
+      <div>
+        <span class="font-extrabold text-xl tracking-tight text-stone-900 group-hover:text-emerald-700 transition-colors">{company.name}</span>
+        <p class="text-xs text-stone-500 font-medium">
+          <span class="lang-km">{company.tagline.km}</span>
+          <span class="lang-en">{company.tagline.en}</span>
+        </p>
+      </div>
+    </a>
+
+    <!-- Desktop Navigation Links from JSON -->
+    <div class="hidden lg:flex items-center gap-7 text-sm font-medium text-stone-600">
+      {company.navLinks.map((link) => (
+        <a href={link.href} class="hover:text-emerald-700 transition-colors">
+          <span class="lang-km">{link.labelKm}</span>
+          <span class="lang-en">{link.labelEn}</span>
+        </a>
+      ))}
+    </div>
+
+    <!-- Right Side Actions: Language Toggle & CTA -->
+    <div class="flex items-center gap-3">
+      <!-- Language Switcher Button -->
+      <div class="p-1 rounded-full border border-stone-200/90 flex items-center text-xs font-semibold shadow-inner" id="lang-switcher-container">
+        <button
+          type="button"
+          id="btn-lang-km"
+          class="lang-btn px-2.5 py-1 rounded-full transition-all duration-200 flex items-center gap-1.5"
+          aria-label="Switch to Khmer"
+        >
+          <span class="font-bold">ខ្មែរ</span>
+        </button>
+        <button
+          type="button"
+          id="btn-lang-en"
+          class="lang-btn px-2.5 py-1 rounded-full transition-all duration-200 flex items-center gap-1.5"
+          aria-label="Switch to English"
+        >
+          <span class="font-bold">EN</span>
+        </button>
+      </div>
+
+      <!-- Telegram Order CTA Button -->
+      <a
+        href={company.socialLinks.telegram}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-semibold text-sm transition-all duration-200 shadow-md shadow-emerald-600/25 hover:shadow-lg hover:shadow-emerald-600/35"
+      >
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+        </svg>
+        <span class="lang-km">កុម្ម៉ង់ឥឡូវនេះ</span>
+        <span class="lang-en">Order Now</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button
+        type="button"
+        id="mobile-menu-btn"
+        class="lg:hidden p-2 rounded-xl text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors"
+        aria-label="Toggle Navigation Menu"
+      >
+        <svg class="w-6 h-6 menu-open-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg class="w-6 h-6 menu-close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Menu from JSON -->
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-stone-200 bg-white/95 backdrop-blur-md px-6 py-6 transition-all duration-300">
+    <div class="flex flex-col gap-4 text-base font-semibold text-stone-700">
+      {company.navLinks.map((link) => (
+        <a href={link.href} class="mobile-link py-2 hover:text-emerald-700 border-b border-stone-100">
+          <span class="lang-km">{link.labelKm}</span>
+          <span class="lang-en">{link.labelEn}</span>
+        </a>
+      ))}
+
+      <div class="pt-4 flex flex-col gap-3">
+        <a
+          href={company.socialLinks.telegram}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-emerald-600 text-white font-bold shadow-md shadow-emerald-600/30"
+        >
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+          </svg>
+          <span class="lang-km">កុម្ម៉ង់ឈុតម្ហូបតាម Telegram</span>
+          <span class="lang-en">Order Cooking Kit on Telegram</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  // Language Switcher Logic
+  function setLanguage(lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+    localStorage.setItem('ingoude_lang', lang);
+
+    const btnKm = document.getElementById('btn-lang-km');
+    const btnEn = document.getElementById('btn-lang-en');
+
+    if (lang === 'km') {
+      btnKm?.classList.add('bg-emerald-600', 'text-white', 'shadow-xs');
+      btnKm?.classList.remove('bg-white', 'text-emerald-800', 'shadow-xs');
+      btnEn?.classList.remove('bg-emerald-600', 'text-white', 'shadow-xs');
+      btnEn?.classList.add('text-stone-500');
+    } else {
+      btnEn?.classList.add('bg-emerald-600', 'text-white', 'shadow-xs');
+      btnEn?.classList.remove('bg-white', 'text-emerald-800', 'shadow-xs');
+      btnKm?.classList.remove('bg-emerald-600', 'text-white', 'shadow-xs');
+      btnKm?.classList.add('text-stone-500');
+    }
+
+    window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang } }));
+  }
+
+  const currentLang = document.documentElement.getAttribute('data-lang') || 'km';
+  setLanguage(currentLang);
+
+  document.getElementById('btn-lang-km')?.addEventListener('click', () => setLanguage('km'));
+  document.getElementById('btn-lang-en')?.addEventListener('click', () => setLanguage('en'));
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const openIcon = menuBtn?.querySelector('.menu-open-icon');
+  const closeIcon = menuBtn?.querySelector('.menu-close-icon');
+
+  menuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+    openIcon?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+  });
+
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+      openIcon?.classList.remove('hidden');
+      closeIcon?.classList.add('hidden');
+    });
+  });
+</script>

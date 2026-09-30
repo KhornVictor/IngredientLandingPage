@@ -1,0 +1,107 @@
+{
+  "name": "Ingredient",
+  "fullName": {
+    "km": "ក្រុមហ៊ុន អ៊ីនហ្គ្រីដៀន (Ingredient Company)",
+    "en": "Ingredient Company (Food Service Startup)"
+  },
+  "tagline": {
+    "km": "ឈុតគ្រឿងផ្សំ & វីដេអូបង្រៀន",
+    "en": "Meal-Kits & Cooking Guides"
+  },
+  "description": {
+    "km": "សេវាកម្មកញ្ចប់គ្រឿងផ្សំចម្អិនអាហារស្រស់ៗវាស់តាមកម្រិតត្រឹមត្រូវ (Cooking Kits) កុម្ម៉ង់តាមអនឡាញ រួមជាមួយវីដេអូនាំផ្លូវចម្អិនមួយជំហានម្តងៗ — ដើម្បីភាពងាយស្រួល សន្សំពេលវេលា និងគ្មានការខ្ជះខ្ជាយ។",
+    "en": "An online ingredient and meal-kit service designed to simplify home cooking with pre-measured packages and instructional video guidance. Save time and prevent food waste."
+  },
+  "announcement": {
+    "badgeKm": "ក្រុងបាត់ដំបង",
+    "badgeEn": "Battambang City",
+    "textKm": "ចាប់ផ្តើមប្រតិបត្តិការដំបូងនៅ ក្រុងបាត់ដំបង កញ្ចប់គ្រឿងផ្សំវាស់ស្រេច ដឹកដល់ផ្ទះ!",
+    "textEn": "Now launching in Battambang City Pre-portioned fresh cooking kits delivered to your door!",
+    "subKm": "កុម្ម៉ង់រហ័សត្រឹមតែ ២០ នាទី",
+    "subEn": "Quick ~20 min ordering",
+    "liveLinkKm": "មើលវីដេអូបង្រៀន & Live",
+    "liveLinkEn": "Watch Live Tutorials"
+  },
+  "location": {
+    "city": "Battambang",
+    "country": "Cambodia",
+    "textKm": "ក្រុងបាត់ដំបង ប្រទេសកម្ពុជា",
+    "textEn": "Battambang City, Cambodia"
+  },
+  "socialLinks": {
+    "telegram": "https://t.me/",
+    "facebook": "https://facebook.com/",
+    "tiktok": "https://tiktok.com/",
+    "phone": "+85512345678",
+    "phoneDisplay": "+855 (0) 12 345 678"
+  },
+  "navLinks": [
+    {
+      "href": "#concept",
+      "labelKm": "គំនិតស្នូល",
+      "labelEn": "Concept"
+    },
+    {
+      "href": "#problems",
+      "labelKm": "បញ្ហា & ដំណោះស្រាយ",
+      "labelEn": "Why Us"
+    },
+    {
+      "href": "#how-it-works",
+      "labelKm": "របៀបដំណើរការ",
+      "labelEn": "How It Works"
+    },
+    {
+      "href": "#kits",
+      "labelKm": "ឈុតមុខម្ហូប",
+      "labelEn": "Meal Kits"
+    },
+    {
+      "href": "#benefits",
+      "labelKm": "អត្ថប្រយោជន៍",
+      "labelEn": "Benefits"
+    },
+    {
+      "href": "#target",
+      "labelKm": "អតិថិជន",
+      "labelEn": "For Whom"
+    },
+    {
+      "href": "#faq",
+      "labelKm": "សំណួរញឹកញាប់",
+      "labelEn": "FAQ"
+    }
+  ],
+  "audienceLinks": [
+    {
+      "href": "#target",
+      "labelKm": "សិស្ស និស្សិត និងយុវជន",
+      "labelEn": "Students & Young Adults"
+    },
+    {
+      "href": "#target",
+      "labelKm": "បុគ្គលិកការិយាល័យរវល់",
+      "labelEn": "Working Professionals"
+    },
+    {
+      "href": "#target",
+      "labelKm": "មេផ្ទះ & អាណាព្យាបាល",
+      "labelEn": "Housewives & Families"
+    },
+    {
+      "href": "#kits",
+      "labelKm": "ឈុត ២-៣ នាក់ & ៤-៥ នាក់",
+      "labelEn": "2-3 & 4-5 Person Portions"
+    },
+    {
+      "href": "#location",
+      "labelKm": "តំបន់ចែកចាយ ក្រុងបាត់ដំបង",
+      "labelEn": "Battambang Zones"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2026 Ingredient Company. All rights reserved. (ក្រុមហ៊ុន អ៊ីនហ្គ្រីដៀន ហ្វូតសឺវីស)",
+    "mottoKm": "បង្កើតឡើងដើម្បីគាំទ្រការរស់នៅប្រកបដោយផាសុកភាព និងគ្មានការខ្ជះខ្ជាយ",
+    "mottoEn": "Crafted to simplify home cooking and eliminate food waste"
+  }
+}
