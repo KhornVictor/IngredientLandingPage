@@ -15,7 +15,7 @@
     {
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"/><path d=\"M22 10v6\"/><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"/></svg>",
       "color": "blue",
-      "bgImage": "public/audience-students.jpg",
+      "bgImage": "https://www.teachermagazine.com/assets/images/teacher/Preparing_secondary_students_for_uni_2020-11-12-024424.jpg",
       "tagKm": "អាយុ ២០-៤០ ឆ្នាំ",
       "tagEn": "Ages 20-40",
       "titleKm": "សិស្ស និស្សិត & យុវជន",
@@ -33,7 +33,7 @@
     {
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"7\" rx=\"2\" ry=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg>",
       "color": "emerald",
-      "bgImage": "public/audience-professionals.jpg",
+      "bgImage": "https://cdn.uanews.arizona.edu/s3fs-public/styles/az_large/public/story-images/web_shutterstock_629123981.jpg.webp?VersionId=qs7AoxE4hbSWo7ZaKhTppl2Ha8E55qNI&itok=ZvCBxd6W",
       "tagKm": "រវល់នឹងការងារ",
       "tagEn": "Time-Constrained",
       "titleKm": "បុគ្គលិកធ្វើការ & អ្នកអាជីព",
@@ -51,7 +51,7 @@
     {
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-7 h-7\"><path d=\"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg>",
       "color": "amber",
-      "bgImage": "public/audience-family.jpg",
+      "bgImage": "https://www.thechoppingblock.com/hs-fs/hubfs/Blog/family-cooking.jpg?width=1600&height=900&name=family-cooking.jpg",
       "tagKm": "គ្រួសារ & អាណាព្យាបាល",
       "tagEn": "Family Caregivers",
       "titleKm": "មេផ្ទះ & អាណាព្យាបាលរវល់",
